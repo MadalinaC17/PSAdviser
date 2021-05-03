@@ -25,7 +25,15 @@
   color: #fff;
   font-size: 100px;
 }
-
+.secondpage {
+  background-image: url('Imagesps/attendanceheader.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  color: #fff;
+  font-size: 500px;
+}
 .comments {
   background-image: url('Imagesps/commentsheader.png');
   background-position: center;
@@ -47,9 +55,8 @@
 
 .Logo {
   position: absolute;
-width: 396px;
-height: 360px;
-left: 630px;
-top: 100px;
+width: 196px;
+height: 180px;
+margin-top: -180px;
 
 }
