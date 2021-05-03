@@ -41,3 +41,39 @@
     color: #242424;
     transition: 250ms;
   }
+
+  .buttonPop {
+    padding: 12px 260px;
+    font-size: 20px;
+  
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(196, 188, 188);
+    color: rgb(0, 0, 0);
+
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+   
+    
+  }
+
+
+  .buttonViewClients {
+    padding: 12px 255px;
+    font-size: 20px;
+  
+   margin-top: 50px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(196, 188, 188);
+    color: rgb(0, 0, 0);
+
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+   
+    
+  }
