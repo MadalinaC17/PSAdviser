@@ -43,9 +43,9 @@
   }
 
   .buttonPop {
-    padding: 12px 260px;
-    font-size: 20px;
-  
+    padding: 20px 260px;
+    font-size: 25px;
+     margin-top: 20%;
     border-radius: 2px;
     outline: none;
     border: none;
@@ -61,8 +61,8 @@
 
 
   .buttonViewClients {
-    padding: 12px 255px;
-    font-size: 20px;
+    padding: 20px 255px;
+    font-size: 25px;
   
    margin-top: 50px;
     border-radius: 2px;

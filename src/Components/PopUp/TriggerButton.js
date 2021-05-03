@@ -6,7 +6,7 @@ import '../Button.css';
 const TriggerButton = ({ triggerText, buttonRef, showModal }) => {
   return (
     <button
-    className='buttonPop'
+    className='buttonPop btn-outline-secondary btn-block'
    // buttonStyle='btn--outline'
     //buttonSize='btn--large'
       ref={buttonRef}

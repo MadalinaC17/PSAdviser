@@ -15,19 +15,15 @@ import {
   Route,
   LinK
 } from "react-router-dom";
-//import HomePage from './Components/Pages/HomePage';
+import SecondMainPage from './Components/Pages/SecondMainPage';
+
 
 
 
 
 function App() {
   return (
-    // <div className="App">
-      /* <header className="App-header">
-        
-      <img src={logo} alt="logo" />;
-        <Button>Get Started</Button>
-      </header> */
+  
 <div>
 <Router>
       <Navbar />
@@ -38,6 +34,7 @@ function App() {
   <Route path = '/comments' component ={Comments} />
   <Route path = '/signin' component ={SignIn} />
   <Route path = '/register' component ={Register} />
+  <Route path = '/secondmainpage' component = {SecondMainPage} />
 </Switch>
       </Router>
       

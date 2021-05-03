@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 export const Form = ({ onSubmit }) => {
   return (
@@ -19,26 +20,18 @@ export const Form = ({ onSubmit }) => {
 
       <div className="form-group">
         <label htmlFor="Address">Address</label>
-        <input
-          type="Address"
-          className="form-control"
-          id="address"
-          
-        />
+        <input type="Address" className="form-control" id="address" />
       </div>
       <div className="form-group">
         <label htmlFor="Phone Number">Phone Number</label>
-        <input
-          type="Phone Number"
-          className="form-control"
-          id="phonenumber"
-          
-        />
+        <input type="Phone Number" className="form-control" id="phonenumber" />
       </div>
       <div className="form-group">
-        <button className="form-control btn btn-light" type="submit">
-          Submit
-        </button>
+        <Link to="/secondmainpage" s>
+          <button className="form-control btn btn-light" type="submit">
+            Submit
+          </button>
+        </Link>
       </div>
     </form>
   );

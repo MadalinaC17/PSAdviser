@@ -27,14 +27,13 @@ const HomePage = () => {
   };
   return (
     <div className="homepage">
-<div className ="Logo">
-   <img src={logo} alt="logo" />
-   </div>
+
+   <img src={logo} alt="logo" class="Logo"/>
+
       <div class="btn-group-vertical">
-     
         {<Container triggerText={triggerText} onSubmit={onSubmit} />}
         <button
-          className="buttonViewClients "
+          className="buttonViewClients btn-outline-secondary btn-block" 
       
         >
           View Clients
