@@ -36,6 +36,9 @@ export class Container extends Component {
           buttonRef={(n) => (this.TriggerButton = n)}
           triggerText={this.props.triggerText}
         />
+
+
+       
         {this.state.isShown ? (
           <Modal
             onSubmit={this.props.onSubmit}

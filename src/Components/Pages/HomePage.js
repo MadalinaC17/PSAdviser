@@ -1,4 +1,3 @@
-
 // import React from 'react';
 // import '../../App.css';
 
@@ -7,34 +6,42 @@
 // return (
 
 //   <h1 className='homepage'>HomePage</h1>
- 
- 
+
 // );
 
-
 // }
-import React from 'react';
-import '../../App.css';
-import { Container } from './Container';
-
+import React from "react";
+import "../../App.css";
+import { Container } from "../PopUp/Container";
+import { Button } from "../Button";
+import '../Button.css';
+import logo from '../../Imagesps/Psadviserlogo.png';
 
 const HomePage = () => {
-  const triggerText = 'Open form';
+  const triggerText = "New Client";
   const onSubmit = (event) => {
     event.preventDefault(event);
     console.log(event.target.name.value);
     console.log(event.target.email.value);
     console.log(event.target.address.value);
- };
+  };
   return (
-    <div className="home">
+    <div className="homepage">
+<div className ="Logo">
+   <img src={logo} alt="logo" />
+   </div>
+      <div class="btn-group-vertical">
+     
+        {<Container triggerText={triggerText} onSubmit={onSubmit} />}
+        <button
+          className="buttonViewClients "
       
-      <Container triggerText={triggerText} onSubmit={onSubmit} />
-      
+        >
+          View Clients
+        </button>
+      </div>
     </div>
-   // <h1 className='homepage'>HomePage</h1>
   );
 };
 
 export default HomePage;
-

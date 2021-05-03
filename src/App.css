@@ -44,3 +44,12 @@
   color: #fff;
   font-size: 100px;
 }
+
+.Logo {
+  position: absolute;
+width: 396px;
+height: 360px;
+left: 630px;
+top: 100px;
+
+}
