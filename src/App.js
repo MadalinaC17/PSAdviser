@@ -16,6 +16,7 @@ import {
   LinK
 } from "react-router-dom";
 import SecondMainPage from './Components/Pages/SecondMainPage';
+import ClientDetails from './Components/Pages/ClientDetails';
 
 
 
@@ -35,6 +36,7 @@ function App() {
   <Route path = '/signin' component ={SignIn} />
   <Route path = '/register' component ={Register} />
   <Route path = '/secondmainpage' component = {SecondMainPage} />
+  <Route path = '/clientdetails' component = {ClientDetails} />
 </Switch>
       </Router>
       
