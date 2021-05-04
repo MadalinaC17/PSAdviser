@@ -38,6 +38,7 @@
   background-image: url('Imagesps/commentsheader.png');
   background-position: center;
   background-size: cover;
+  background-attachment: scroll;
   opacity: 0.8;
   background-repeat: no-repeat;
   color: #fff;
