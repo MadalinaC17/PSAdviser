@@ -1,11 +1,12 @@
 .clientdetails {
-    background-image: url('../../Imagesps/Clientdetailsheader.jpeg');
+    background-image: url('../../Imagesps/Briefingnotesheader.png');
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-    opacity: 0.8;
+   
+   
     background-repeat: no-repeat;
-    color: black;
+    color: rgb(255, 255, 255);
   
   }
     
