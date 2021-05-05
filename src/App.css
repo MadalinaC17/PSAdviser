@@ -53,7 +53,26 @@
   color: #fff;
   font-size: 100px;
 }
+.briefing {
 
+  background-image: url('Imagesps/Briefingnotesheader.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  color: #fff;
+  font-size: 100px;
+}
+.police {
+
+  background-image: url('Imagesps/policeheader.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  color: rgb(0, 0, 0);
+ 
+}
 .Logo {
   position: absolute;
 width: 196px;

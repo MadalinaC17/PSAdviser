@@ -16,7 +16,10 @@ import {
   LinK
 } from "react-router-dom";
 import SecondMainPage from './Components/Pages/SecondMainPage';
-import ClientDetails from './Components/Pages/ClientDetails';
+import ClientDetails from './Components/Forms/ClientDetails';
+import BriefingNotes from './Components/Forms/BriefingNotes';
+import CodesOfConducts from './Components/Forms/CodesOfConduct';
+import PoliceF from './Components/Forms/PoliceF';
 
 
 
@@ -37,6 +40,9 @@ function App() {
   <Route path = '/register' component ={Register} />
   <Route path = '/secondmainpage' component = {SecondMainPage} />
   <Route path = '/clientdetails' component = {ClientDetails} />
+  <Route path = '/briefingnotes' component = {BriefingNotes} />
+  <Route path = '/codesofconduct' component ={CodesOfConducts} />
+  <Route path = '/policestation' component = {PoliceF} />
 </Switch>
       </Router>
       

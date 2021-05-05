@@ -52,7 +52,7 @@
       .button{
         padding: 20px 290px;
         font-size: 25px;
-      
+      width: 1000px;
        margin-top: 40px;
         border-radius: 2px;
         outline: none;
@@ -72,7 +72,7 @@
       .Logo2 {
       position: absolute;
       left: 630px;
-      top: -210px;
+      top: -230px;
       opacity: 1.6;
      
       
