@@ -29,11 +29,13 @@ export default function SecondMainPage() {
             Briefing Notes
           </button>
           </Link>
-          <Link to = "/codesofconduct">
+
+            <a href = "https://www.gov.uk/guidance/police-and-criminal-evidence-act-1984-pace-codes-of-practice#current-versions-of-the-codes">
           <button className="button btn-outline-secondary btn-block ">
             Police Codes of Conduct
           </button>
-          </Link>
+          </a>
+       
         </div>
       </div>
     </div>

@@ -1,8 +1,13 @@
 import React from "react";
 import "../DesignCSS/Forms.css";
+import { Container } from 'react-bootstrap';
 
 export default function FormcontentClient() {
   return (
+    <div className ="clientdetails">
+
+
+    <Container>
     <div class="card ">
       <div class="card-header">CLIENT DETAILS & RISK ASSESSMENT </div>
       <div class="card-body">
@@ -559,7 +564,7 @@ export default function FormcontentClient() {
                   name="ic_id_39"
                   id="ic_id_39"
                   value="1"
-                  checked
+                  
                 />
                 <label class="form-check-label" for="ic_id_39">
                   to decline to act for the reason identified in the checklist
@@ -572,7 +577,7 @@ export default function FormcontentClient() {
                   name="ic_id_40"
                   id="ic_id_40"
                   value="2"
-                  checked
+                  
                 />
                 <label class="form-check-label" for="ic_id_40">
                   to continue with the file as the matter is low risk
@@ -585,7 +590,7 @@ export default function FormcontentClient() {
                   name="ic_id41"
                   id="ic_id41"
                   value="3"
-                  checked
+                  
                 />
                 <label class="form-check-label" for="ic_id41">
                   to refer the matter to the Risk Partner for review as a high
@@ -612,7 +617,7 @@ export default function FormcontentClient() {
                     name="ic_id_41"
                     id="ic_id_41"
                     value="1"
-                    checked
+                    
                   />
                   <label class="form-check-label" for="ic_id_41">
                     Client is particularly hostile/violent and/or has a mental
@@ -626,7 +631,7 @@ export default function FormcontentClient() {
                     name="ic_id_42"
                     id="ic_id_42"
                     value="2"
-                    checked
+                    
                   />
                   <label class="form-check-label" for="ic_id_42">
                     Case transferred from another firm due to complaint or
@@ -640,7 +645,7 @@ export default function FormcontentClient() {
                     name="ic_id43"
                     id="ic_id43"
                     value="3"
-                    checked
+                 
                   />
                   <label class="form-check-label" for="ic_id43">
                     Case with legal complexity
@@ -653,7 +658,7 @@ export default function FormcontentClient() {
                     name="ic_id44"
                     id="ic_id44"
                     value="4"
-                    checked
+                    
                   />
                   <label class="form-check-label" for="ic_id44">
                     Case with money laundering risk
@@ -666,7 +671,7 @@ export default function FormcontentClient() {
                     name="ic_id46"
                     id="ic_id46"
                     value="5"
-                    checked
+                    
                   />
                   <label class="form-check-label" for="ic_id46">
                     Client has complained previously (about this or another
@@ -680,7 +685,7 @@ export default function FormcontentClient() {
                     name="ic_id47"
                     id="ic_id47"
                     value="6"
-                    checked
+                    
                   />
                   <label class="form-check-label" for="ic_id47">
                     Crown court case involving complex issues of law
@@ -693,7 +698,7 @@ export default function FormcontentClient() {
                     name="ic_id48"
                     id="ic_id48"
                     value="7"
-                    checked
+                    
                   />
                   <label class="form-check-label" for="ic_id48">
                     Privately funded case and client has unreasonable
@@ -707,7 +712,7 @@ export default function FormcontentClient() {
                     name="ic_id49"
                     id="ic_id49"
                     value="8"
-                    checked
+                   
                   />
                   <label class="form-check-label" for="ic_id49">
                     Case subject to the Conflicts Exception Form
@@ -719,5 +724,7 @@ export default function FormcontentClient() {
         </div>
       </div>
     </div>
+    </Container>
+  </div>
   );
 }

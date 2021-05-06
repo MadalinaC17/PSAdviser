@@ -1,7 +1,9 @@
 import React from "react";
+import { Container } from 'react-bootstrap';
 
 export default function FormsPolice() {
   return (
+    <Container>
     <div className="police">
       <div class="card">
         <div class="card-header">CONTACT AND ATTENDANCE DETAILS</div>
@@ -559,5 +561,6 @@ export default function FormsPolice() {
         </div>
       </div>
     </div>
+    </Container>
   );
 }
