@@ -20,6 +20,7 @@ import ClientDetails from './Components/Forms/ClientDetails';
 import BriefingNotes from './Components/Forms/BriefingNotes';
 import CodesOfConducts from './Components/Forms/CodesOfConduct';
 import PoliceF from './Components/Forms/PoliceF';
+import ViewClients from './Components/Pages/ViewClients';
 
 
 
@@ -43,6 +44,7 @@ function App() {
   <Route path = '/briefingnotes' component = {BriefingNotes} />
   <Route path = '/codesofconduct' component ={CodesOfConducts} />
   <Route path = '/policestation' component = {PoliceF} />
+  <Route path = '/viewclients' component ={ViewClients} />
 </Switch>
       </Router>
       

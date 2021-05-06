@@ -1,8 +1,10 @@
 import React from "react";
 import "../DesignCSS/Forms.css";
+import { Container } from 'react-bootstrap';
 
 export default function FormBriefingNotes() {
   return (
+    <Container>
     <div class="card">
       <div class="card-header">BRIEFING NOTES</div>
       <div class="card-body">
@@ -945,5 +947,6 @@ export default function FormBriefingNotes() {
         </form>
       </div>
     </div>
+    </Container>
   );
 }

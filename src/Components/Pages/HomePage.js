@@ -16,7 +16,7 @@ import { Container } from "../PopUp/Container";
 import { Button } from "../Button";
 import '../Button.css';
 import logo from '../../Imagesps/Psadviserlogo.png';
-
+import { Link } from "react-router-dom";
 const HomePage = () => {
   const triggerText = "New Client";
   const onSubmit = (event) => {
@@ -32,12 +32,14 @@ const HomePage = () => {
 
       <div class="btn-group-vertical">
         {<Container triggerText={triggerText} onSubmit={onSubmit} />}
+       <Link to = '/viewclients' >
         <button
           className="buttonViewClients btn-outline-secondary btn-block" 
       
         >
           View Clients
         </button>
+        </Link>
       </div>
     </div>
   );
