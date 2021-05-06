@@ -40,7 +40,7 @@ function ViewClients()
         
     </td>
     <td>
-        {client.address}
+        {client.phonenumber}
     </td>
 </tbody>
 </Table>
