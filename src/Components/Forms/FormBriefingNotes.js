@@ -1,9 +1,11 @@
 import React from "react";
 import "../DesignCSS/Forms.css";
 import { Container } from 'react-bootstrap';
+import '../DesignCSS/Forms.css';
 
 export default function FormBriefingNotes() {
   return (
+    <div className = "notes">
     <Container>
     <div class="card">
       <div class="card-header">BRIEFING NOTES</div>
@@ -946,7 +948,10 @@ export default function FormBriefingNotes() {
           </div>
         </form>
       </div>
+      <button type="button" class="buttonp btn-outline-success ">Submit</button>
     </div>
+    
     </Container>
+    </div>
   );
 }

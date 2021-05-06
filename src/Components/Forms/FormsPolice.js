@@ -1,10 +1,12 @@
 import React from "react";
 import { Container } from 'react-bootstrap';
+import '../DesignCSS/Forms.css';
 
 export default function FormsPolice() {
   return (
-    <Container>
     <div className="police">
+    <Container>
+   
       <div class="card">
         <div class="card-header">CONTACT AND ATTENDANCE DETAILS</div>
         <div class="card-body">
@@ -559,8 +561,12 @@ export default function FormsPolice() {
             </div>
           </form>
         </div>
+        <button type="button" class="buttonp btn-outline-success ">Submit</button>
       </div>
+      </Container>
     </div>
-    </Container>
+    
+   
+   
   );
 }

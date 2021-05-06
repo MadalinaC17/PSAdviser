@@ -10,8 +10,29 @@
   
   }
     
+  .notes {
+    background-image: url('../../Imagesps/clientheader.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+   
+   
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+  
+  }
+    
 
-
+.buttonp
+{
+  position: center;
+  margin-top: 20px;
+  margin-left: 500px;
+  border-radius: 10%;
+  width: 100px; ;
+  height: 30px;
+ 
+}
 .style {
   background-color: lightblue;
   width: 110px;
