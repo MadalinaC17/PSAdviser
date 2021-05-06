@@ -723,7 +723,7 @@ export default function FormcontentClient() {
           </form>
         </div>
       </div>
-      <button type="button" class="buttonp btn-outline-success ">Submit</button>
+      <button type="button" class="buttonp btn-outline-success ">Save</button>
     </div>
    
     </Container>
